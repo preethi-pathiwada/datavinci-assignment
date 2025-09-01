@@ -58,13 +58,13 @@ const Header = () => {
                 <button className='slide-btn'><img src={nextBtn} alt='nextBtn'/></button>
             </div>
             <ul className='desktop-image-list-container'>
-                <li className='image-list-item'><img src={img1} className='list-image'/></li>
-                <li className='image-list-item'><img src={img2} className='list-image'/></li>
-                <li className='image-list-item'><img src={img3} className='list-image'/></li>
-                <li className='image-list-item'><img src={img4} className='list-image'/></li>
-                <li className='image-list-item'><img src={img5} className='list-image'/></li>
-                <li className='image-list-item'><img src={img6} className='list-image'/></li>
-                <li className='image-list-item'><img src={img7} className='list-image'/></li>
+                <li className='image-list-item'><img src={img1} className='list-image' alt="img1"/></li>
+                <li className='image-list-item'><img src={img2} className='list-image' alt="img2"/></li>
+                <li className='image-list-item'><img src={img3} className='list-image' alt="img3"/></li>
+                <li className='image-list-item'><img src={img4} className='list-image' alt="img4"/></li>
+                <li className='image-list-item'><img src={img5} className='list-image' alt="img5"/></li>
+                <li className='image-list-item'><img src={img6} className='list-image' alt="img6"/></li>
+                <li className='image-list-item'><img src={img7} className='list-image' alt="img7"/></li>
             </ul>
                 </div>
                 <div className='description-container'>
@@ -113,12 +113,12 @@ const Header = () => {
                     <button className='payment-btn-dark'><p>One-time purchase</p><p>$55.88 USD</p></button>
                     <button className='payment-btn-light'><p>Subscribe & save 20% </p><p>$44.70 USD</p></button>
                     <div className='subscription-container'>
-                        <img src={restart} className='restart-icon'/>
+                        <img src={restart} className='restart-icon' alt="restart-icon"/>
                         <p>What is a Subscription?</p>
                     </div>
                 </div>
                 <p>SELECT QUANTITY</p>
-                
+
             </div>
             </div>
             
