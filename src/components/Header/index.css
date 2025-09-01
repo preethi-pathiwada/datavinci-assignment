@@ -1,0 +1,290 @@
+.bg{
+     background-color: #FBF9F6; 
+
+    min-height: 100%;
+    padding:15px 10px 15px 10px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger{
+    height: 16px;
+    width: 16px;
+   
+}
+.logo{
+    
+    text-align:center;
+}
+
+.nav-items-container{
+    display: flex;
+   
+    align-items: center;
+   
+}
+.nav-btn{
+    background-color: transparent;
+    padding:0px 0px 0px 0px;
+    margin-left:12px;
+    border-width:0px;
+    display: flex;
+    cursor: pointer;
+}
+.nav-item{
+    height:16px;
+    width:16px;
+}
+.cart-count-container{
+    background-color: #F1B434;
+    height:22px;
+    width:22px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:10px;
+    right:10px;
+}
+.count{
+    font-size: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide-btn{
+    width:18px;
+    height:40px;
+    background-color: transparent;
+    padding:0px 0px 0px 0px;
+    border-width:0px;
+    cursor: pointer;
+}
+.product-container{
+
+    background-image: url("../../assets/background.svg");
+    height:333px;
+    width: 333px;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 100%;
+    width:100%;
+}
+.description-container{
+    color:#313131;
+    font-weight: 400;
+}
+.heading{
+    font-size: 50px;
+    color:#313131;
+    font-weight: 400;
+}
+
+.detail-container{
+    background-color:#66666626;
+    height:38px;
+    width:205px;
+    border-radius: 22px;
+    padding:6px 12px 6px 12px;
+    display: flex;
+    align-items: center;
+}
+.detail{
+    font-size: 14px;
+    font-weight: 400;
+    margin:0px 0px 0px 0px;
+    
+}
+.detail-icon{
+    height:14px;
+    width:14px;
+    margin-right: 10px;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.optimiser-heading{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.like-icon{
+    height: 18px;
+    width:18px;
+    margin-right: 7px;
+}
+.review-container{
+    display: none;
+}
+.review{
+    font-size: 12px;
+}
+.mobile-logos-container{
+    display: flex;
+    justify-content: space-between;
+}
+.desktop-logos-container{
+    padding-left: 0;
+    list-style-type: none;
+    display: none;
+}
+.list-container{
+    padding-left: 0;
+    margin:0px 0px 0px;
+    list-style-type: none;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.bottle-btn{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.bottle-img{
+    height:80px;
+    width:80px;
+}
+.payment-option-container{
+    /* background-color: #F2F2F2; */
+    background-color: red;
+    border-radius: 10px;
+    padding:10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-btn-dark{
+    background-color: #F1B434;
+    height:44px;
+    width:100%;
+    margin-left:10px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 13px;
+    border-radius: 50px;
+    border-width:0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.payment-btn-light{
+    border-color: #F1B434;
+    height:44px;
+    width:100%;
+    margin-left:10px;
+    color: #313131;
+    font-size: 13px;
+    border-radius: 50px;
+    border-width:1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-image-list-container{
+    display: none;
+}
+
+.subscription-container{
+    display: flex;
+    align-items: center;
+}
+.restart-icon{
+    color: #313131;
+    height:20px;
+    width:20px;
+    margin-right: 6px;
+}
+
+
+@media all and (min-width:1024px) {
+    .bg{
+        padding:25px 20px 25px 20px;
+    }
+    .nav-item{
+        margin-left:20px;
+    }
+    .description-container{
+        color:#313131;
+        font-weight: 400;
+        width:50%;
+    }
+    .review-container{
+    display: flex;
+    align-items: center;
+    }
+    .mobile-logos-container{
+        display: none;
+    }
+    .desktop-logos-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .organization-logo{
+        height:70px;
+        width:70px;
+    }
+    .bottle-img{
+        height:130px;
+        width:120px;
+    }
+    .payment-option-container{
+        flex-direction: row;
+        height:144px;
+        border-radius: 20px;
+    }
+    .payment-btn-dark{
+        height:65px;
+    }
+    .payment-btn-light{
+        height:65px;
+    }
+    
+    .desktop-image-list-container{
+       
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    display: flex;
+    flex-wrap:wrap;
+}
+.list-image{
+    height:160px;
+    width:260px;
+}
+
+
+.product-section-container{
+    display:flex;
+
+}
+.restart-icon{
+    height:16px;
+    width:16px;
+}
+
+
+}
